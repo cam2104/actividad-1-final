@@ -12,3 +12,6 @@ class Vehiculo(ABC):
     @abstractmethod
     def __str__(self):
         pass
+    
+if __name__ == "__main__":
+    print("Vehiculo es una clase abstracta, no se puede instanciar directamente.")

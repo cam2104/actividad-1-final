@@ -4,3 +4,6 @@ class Combustible:
 
     def repostar(self):
         return f"Repostando gasolina: {self.nivel_gasolina} litros"
+if __name__ == "__main__":
+    c = Combustible(45)
+    print(c.repostar())

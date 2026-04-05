@@ -3,4 +3,8 @@ class Electrico:
         self.bateria = bateria
 
     def cargar_bateria(self):
-        return f"Cargando batería al {self.bateria}%"
+        return f"Cargando bateria al {self.bateria}%"
+
+if __name__ == "__main__":
+    e = Electrico(85)
+    print(e.cargar_bateria())
